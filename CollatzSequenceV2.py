@@ -10,7 +10,7 @@ def collatz(number):
 
 
 try:
-    num = int(input("Enter number: "))
+    num = int(input("Enter any number above 1: "))
     num = collatz(num)
 
     while num == 0:         #Only if the user insists of
