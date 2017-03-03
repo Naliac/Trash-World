@@ -20,4 +20,4 @@ try:
     while num != 1:
        num = collatz(num)
 except ValueError:
-    print('This is da cool numbahs club no letters allowed!')
+    print('Invalid Input')
